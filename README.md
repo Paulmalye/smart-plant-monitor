@@ -25,7 +25,7 @@ Move Plant
 
 ## 📸 Aperçu du projet
 
-![Montage principal](images/montage-global.jpg)
+![Montage principal](images/montage-global.jpeg)
 
 ## 🔌 Composants utilisés
 
