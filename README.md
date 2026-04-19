@@ -11,21 +11,41 @@ Ce système mesure la lumière grâce à une photorésistance (LDR), affiche la 
 ### Lumière suffisante
 
 - LED verte allumée
-- Message affiché :
+- message affiché :
 
 Plant OK
 
 ### Lumière insuffisante
 
 - LED rouge allumée
-- Buzzer activé
-- Message affiché :
+- buzzer activé
+- message affiché :
 
 Move Plant
 
+---
+
 ## 📸 Aperçu du projet
 
+### Montage principal
+
 ![Montage principal](images/montage-global.jpeg)
+
+### Lumière correcte
+
+![Plant OK](images/plant-ok.jpeg)
+
+### Alerte manque de lumière
+
+![Move Plant](images/move-plant.jpeg)
+
+---
+
+## 🎥 Démonstration vidéo
+
+[▶ Voir la vidéo du projet](videos/demo.mov)
+
+---
 
 ## 🔌 Composants utilisés
 
@@ -40,6 +60,8 @@ Move Plant
 - résistances
 - breadboard
 
+---
+
 ## 🧠 Compétences mobilisées
 
 - lecture analogique
@@ -49,13 +71,18 @@ Move Plant
 - transistor en commutation
 - prototypage breadboard
 - diagnostic de panne
+- programmation Arduino C++
+
+---
 
 ## 💻 Code source
 
 Le programme principal est disponible dans :
 
-`src/smart_plant_monitor.ino`
+`smart_plant_monitor.ino`
+
+---
 
 ## 🚀 Auteur
 
-Projet personnel réalisé dans le cadre de mon apprentissage en électronique et systèmes embarqués.
+Projet personnel réalisé dans le cadre de ma préparation à un BTS CIEL (option électronique & réseaux) et de ma recherche d’alternance.
