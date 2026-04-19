@@ -43,7 +43,7 @@ Move Plant
 
 ## 🎥 Démonstration vidéo
 
-[▶ Voir la vidéo du projet](videos/demo.mov)
+[▶ Voir la vidéo du projet](videos/demo.mp4)
 
 ---
 
