@@ -1,57 +1,61 @@
-:::writing{variant=“standard” id=“42123”}
-
-🌱 Smart Plant Monitor
+# 🌱 Smart Plant Monitor
 
 Projet Arduino permettant de surveiller la luminosité d’une plante d’intérieur.
 
-🎯 Objectif
+## 🎯 Objectif
 
 Ce système mesure la lumière grâce à une photorésistance (LDR), affiche la valeur sur écran LCD et alerte si la plante manque de lumière.
 
-⚙️ Fonctionnement
+## ⚙️ Fonctionnement
 
-Lumière suffisante :
-    •    LED verte allumée
-    •    message affiché :
+### Lumière suffisante
 
-    Plant OK
+- LED verte allumée
+- Message affiché :
 
-    Lumière insuffisante :
-    •    LED rouge allumée
-    •    buzzer activé
-    •    message affiché :
+Plant OK
 
-    Move Plant
+### Lumière insuffisante
 
- 📸 Aperçu du projet
+- LED rouge allumée
+- Buzzer activé
+- Message affiché :
 
- 🔌 Composants utilisés
-    •    Arduino Uno
-    •    écran LCD 16x2
-    •    photorésistance (LDR)
-    •    potentiomètre 10kΩ
-    •    LED verte
-    •    LED rouge
-    •    buzzer
-    •    transistor 2N2222
-    •    résistances
-    •    breadboard
+Move Plant
 
-🧠 Compétences mobilisées
-    •    lecture analogique
-    •    pont diviseur de tension
-    •    affichage LCD
-    •    pilotage LEDs
-    •    transistor en commutation
-    •    prototypage breadboard
-    •    diagnostic de panne
+## 📸 Aperçu du projet
 
-💻 Code source
+![Montage principal](images/montage-global.jpg)
+
+## 🔌 Composants utilisés
+
+- Arduino Uno
+- écran LCD 16x2
+- photorésistance (LDR)
+- potentiomètre 10kΩ
+- LED verte
+- LED rouge
+- buzzer
+- transistor 2N2222
+- résistances
+- breadboard
+
+## 🧠 Compétences mobilisées
+
+- lecture analogique
+- pont diviseur de tension
+- affichage LCD
+- pilotage LEDs
+- transistor en commutation
+- prototypage breadboard
+- diagnostic de panne
+
+## 💻 Code source
 
 Le programme principal est disponible dans :
 
-src/smart_plant_monitor.ino
+`src/smart_plant_monitor.ino`
 
-🚀 Auteur
+## 🚀 Auteur
 
 Projet personnel réalisé dans le cadre de mon apprentissage en électronique et systèmes embarqués.
